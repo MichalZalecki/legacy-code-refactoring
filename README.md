@@ -13,3 +13,11 @@ You're dealing with an app that's using a custom framework that also happens to 
 
     npx parcel exercises/02-sprout/index.html
     npx jest 02
+
+**03. Wrap Method**
+
+You've noticed that your legacy service for fetching GitHub users is overexploited by some malicious actors. You have to implement a rate limiting feature that allows your users to hit the endpoint only 2 times a minute.
+
+    node exercises/03-wrap/index.js
+    npx jest 03
+
