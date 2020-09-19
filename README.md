@@ -21,3 +21,9 @@ You've noticed that your legacy service for fetching GitHub users is overexploit
     node exercises/03-wrap/index.js
     npx jest 03
 
+**04. Snapshot Testing**
+
+You can no longer inject raw HTML in your app. You have to migrate this loan amortization calculator to a framework of your choice. The amortization function comes from [this codepen](https://codepen.io/joeymack47/pen/fHwvd) but all comments have been removed. Current implementation spits out HTML table. If you don't understand it then a) you shouldn't borrow money b) you'll be able to exploit the full potential of snapshot testing.
+
+    npx parcel exercises/04-snapshots/index.html
+    npx jest 04
