@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import axios from "axios";
 import { fetchUser, fetchUsers } from "./UsersRepository";
 
-// 1. Component is doing too much things (load button, users list, single user)
+// 1. Component is doing too much (load button, users list, single user)
 // 2. Component can't be unit tested (performs API request)
 // 3. Component is coupled with GitHub API internals (avatar_url)
 
