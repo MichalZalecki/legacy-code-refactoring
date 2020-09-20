@@ -1,3 +1,5 @@
+import { getUserGreetings } from "./greetings";
+
 window.myApp = {
   translations: {
     en: {
@@ -20,7 +22,10 @@ window.myApp = {
     this.user = user;
   },
   greetings() {
-    return `Hello, ${this.user.firstName}`;
+    return getUserGreetings(
+      this.translations[this.language].greeting,
+      this.user.firstName
+    );
   },
 };
 
