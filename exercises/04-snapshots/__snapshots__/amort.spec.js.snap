@@ -1,0 +1,221 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders amortization table 1`] = `
+"Loan amount: $10000.00<br />Interest rate: 6.00%<br />Number of months: 36<br />Monthly payment: $304.22<br />Total paid: $10951.90<br /><br /><table border='1'><tr><th>Month #</th><th>Balance</th><th>Interest</th><th>Principal</th><tr align=center>
+	<td>1</td>
+	<td> $10000.00</td>
+	<td> $50.00</td>
+	<td> $254.22</td>
+</tr>
+<tr align=center>
+	<td>2</td>
+	<td> $9745.78</td>
+	<td> $48.73</td>
+	<td> $255.49</td>
+</tr>
+<tr align=center>
+	<td>3</td>
+	<td> $9490.29</td>
+	<td> $47.45</td>
+	<td> $256.77</td>
+</tr>
+<tr align=center>
+	<td>4</td>
+	<td> $9233.52</td>
+	<td> $46.17</td>
+	<td> $258.05</td>
+</tr>
+<tr align=center>
+	<td>5</td>
+	<td> $8975.47</td>
+	<td> $44.88</td>
+	<td> $259.34</td>
+</tr>
+<tr align=center>
+	<td>6</td>
+	<td> $8716.13</td>
+	<td> $43.58</td>
+	<td> $260.64</td>
+</tr>
+<tr align=center>
+	<td>7</td>
+	<td> $8455.49</td>
+	<td> $42.28</td>
+	<td> $261.94</td>
+</tr>
+<tr align=center>
+	<td>8</td>
+	<td> $8193.55</td>
+	<td> $40.97</td>
+	<td> $263.25</td>
+</tr>
+<tr align=center>
+	<td>9</td>
+	<td> $7930.30</td>
+	<td> $39.65</td>
+	<td> $264.57</td>
+</tr>
+<tr align=center>
+	<td>10</td>
+	<td> $7665.73</td>
+	<td> $38.33</td>
+	<td> $265.89</td>
+</tr>
+<tr align=center>
+	<td>11</td>
+	<td> $7399.84</td>
+	<td> $37.00</td>
+	<td> $267.22</td>
+</tr>
+<tr align=center>
+	<td>12</td>
+	<td> $7132.62</td>
+	<td> $35.66</td>
+	<td> $268.56</td>
+</tr>
+<tr align=center>
+	<td>13</td>
+	<td> $6864.06</td>
+	<td> $34.32</td>
+	<td> $269.90</td>
+</tr>
+<tr align=center>
+	<td>14</td>
+	<td> $6594.16</td>
+	<td> $32.97</td>
+	<td> $271.25</td>
+</tr>
+<tr align=center>
+	<td>15</td>
+	<td> $6322.91</td>
+	<td> $31.61</td>
+	<td> $272.60</td>
+</tr>
+<tr align=center>
+	<td>16</td>
+	<td> $6050.31</td>
+	<td> $30.25</td>
+	<td> $273.97</td>
+</tr>
+<tr align=center>
+	<td>17</td>
+	<td> $5776.34</td>
+	<td> $28.88</td>
+	<td> $275.34</td>
+</tr>
+<tr align=center>
+	<td>18</td>
+	<td> $5501.00</td>
+	<td> $27.51</td>
+	<td> $276.71</td>
+</tr>
+<tr align=center>
+	<td>19</td>
+	<td> $5224.29</td>
+	<td> $26.12</td>
+	<td> $278.10</td>
+</tr>
+<tr align=center>
+	<td>20</td>
+	<td> $4946.19</td>
+	<td> $24.73</td>
+	<td> $279.49</td>
+</tr>
+<tr align=center>
+	<td>21</td>
+	<td> $4666.70</td>
+	<td> $23.33</td>
+	<td> $280.89</td>
+</tr>
+<tr align=center>
+	<td>22</td>
+	<td> $4385.82</td>
+	<td> $21.93</td>
+	<td> $282.29</td>
+</tr>
+<tr align=center>
+	<td>23</td>
+	<td> $4103.53</td>
+	<td> $20.52</td>
+	<td> $283.70</td>
+</tr>
+<tr align=center>
+	<td>24</td>
+	<td> $3819.82</td>
+	<td> $19.10</td>
+	<td> $285.12</td>
+</tr>
+<tr align=center>
+	<td>25</td>
+	<td> $3534.70</td>
+	<td> $17.67</td>
+	<td> $286.55</td>
+</tr>
+<tr align=center>
+	<td>26</td>
+	<td> $3248.16</td>
+	<td> $16.24</td>
+	<td> $287.98</td>
+</tr>
+<tr align=center>
+	<td>27</td>
+	<td> $2960.18</td>
+	<td> $14.80</td>
+	<td> $289.42</td>
+</tr>
+<tr align=center>
+	<td>28</td>
+	<td> $2670.76</td>
+	<td> $13.35</td>
+	<td> $290.87</td>
+</tr>
+<tr align=center>
+	<td>29</td>
+	<td> $2379.90</td>
+	<td> $11.90</td>
+	<td> $292.32</td>
+</tr>
+<tr align=center>
+	<td>30</td>
+	<td> $2087.58</td>
+	<td> $10.44</td>
+	<td> $293.78</td>
+</tr>
+<tr align=center>
+	<td>31</td>
+	<td> $1793.79</td>
+	<td> $8.97</td>
+	<td> $295.25</td>
+</tr>
+<tr align=center>
+	<td>32</td>
+	<td> $1498.54</td>
+	<td> $7.49</td>
+	<td> $296.73</td>
+</tr>
+<tr align=center>
+	<td>33</td>
+	<td> $1201.82</td>
+	<td> $6.01</td>
+	<td> $298.21</td>
+</tr>
+<tr align=center>
+	<td>34</td>
+	<td> $903.61</td>
+	<td> $4.52</td>
+	<td> $299.70</td>
+</tr>
+<tr align=center>
+	<td>35</td>
+	<td> $603.91</td>
+	<td> $3.02</td>
+	<td> $301.20</td>
+</tr>
+<tr align=center>
+	<td>36</td>
+	<td> $302.71</td>
+	<td> $1.51</td>
+	<td> $302.71</td>
+</tr>
+</table>"
+`;

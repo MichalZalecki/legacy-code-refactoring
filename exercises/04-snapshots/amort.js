@@ -30,19 +30,19 @@ export function amort(balance, interestRate, terms) {
 
     var monthlyPrincipal = 0;
 
-    result += "<tr align=center>";
+    result += "<tr align=center>\n";
 
-    result += "<td>" + (count + 1) + "</td>";
+    result += "\t<td>" + (count + 1) + "</td>\n";
 
-    result += "<td> $" + balance.toFixed(2) + "</td>";
+    result += "\t<td> $" + balance.toFixed(2) + "</td>\n";
 
     interest = balance * monthlyRate;
-    result += "<td> $" + interest.toFixed(2) + "</td>";
+    result += "\t<td> $" + interest.toFixed(2) + "</td>\n";
 
     monthlyPrincipal = payment - interest;
-    result += "<td> $" + monthlyPrincipal.toFixed(2) + "</td>";
+    result += "\t<td> $" + monthlyPrincipal.toFixed(2) + "</td>\n";
 
-    result += "</tr>";
+    result += "</tr>\n";
 
     balance = balance - monthlyPrincipal;
   }
